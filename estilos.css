@@ -1,0 +1,112 @@
+/*General*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #333;
+    padding: 5;
+    text-align:center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+}
+
+
+/* Letras de texto */
+p{
+    text-align: justify;
+}
+
+/* Contacto */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+label, input, textarea {
+    display: block;
+    margin: 10px 0;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+h4{
+ text-align: center;
+}
+
+/* Movil */
+@media (max-width: 1000px) {
+    nav ul {
+        text-align: center;
+        padding: 10px 0;
+    }
+    
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    
+    .menu-icon {
+        display: block;
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px;
+        cursor: pointer;
+    }
+    
+    .menu {
+        display: none;
+    }
+}
+
+/* Ajustar imágenes */
+main img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
